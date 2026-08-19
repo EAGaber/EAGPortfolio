@@ -124,14 +124,11 @@ div.blankspace{
   margin: 20px;
 }
 footer, p.footer{
-   line-height: 1.8;
+  line-height: 1.8;
   font-family: Garamond;
-  background-color:#111111;
-  padding: 10px;
   color: #BF6CE2;
   text-align: center;
   position: fixed;
-  width: 100%;
   bottom: 0;  
 }
 

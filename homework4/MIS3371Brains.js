@@ -454,11 +454,23 @@ function handleRememberMe() {
 //Credit to Professor Jake! (i made some tweaks dont worry! I must add that I used Google GEmini (You mentioned we can use it somewhat) to help me figure out why i coulnt get it to function)
 function returndata() {
   let formcontents = document.getElementById("Intake");
-  let Review = document.getElementById("Review");
+  let  = document.getElementById("Review");
   let formoutput;
   let datatype;
   let i;
+ //credit gemini....need to update the names
+ Review.addEventListener('click', () => {
+        // Toggle visibility
+        if (outputformdata.style.display === 'none' || outputformdata.style.display === '') {
+            outputformdata.style.display = 'block';
+            Review.textContent = 'Hide Code';
+        } else {
+            outputformdata.style.display = 'none';
+            Review.textContent = 'Show Code';
+        }
+    });
   Review.onclick = function() {
+   
     if (document.getElementById("returndata")) {
       document.getElementById("returndata").style.display = "block";
     }

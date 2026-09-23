@@ -131,6 +131,9 @@ div.blankspace{
   position: fixed;
   bottom: 0;  
  background-color:#111111;
+  width: 87.5%;
+ padding: 25px;
+  border-radius: 8px;
 }
 
 iframe {

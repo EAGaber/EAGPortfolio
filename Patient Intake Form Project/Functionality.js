@@ -1,7 +1,7 @@
 /*
 Name: Emily Gaber
- File: MIS3371Brains.js
- Date Created: 6/23/2026 (technically old code but im using it for a new clinic)
+ File: Functionality.js
+ Date Created: 6/23/2026 
  Date Updated: 6/27/2026
  Purpose: To creat logic for the website to validate
  */

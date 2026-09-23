@@ -123,13 +123,14 @@ div.blankspace{
   padding: 50px;
   margin: 20px;
 }
-footer, p.footer{
+.footer, p.footer{
   line-height: 1.8;
   font-family: Garamond;
   color: #BF6CE2;
   text-align: center;
   position: fixed;
   bottom: 0;  
+ background-color:#111111;
 }
 
 iframe {
